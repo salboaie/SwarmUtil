@@ -1,0 +1,55 @@
+{
+  "name": "BlueUtils",
+  "description": "Utils. Evented stream json reader for node.js,hexadecimal conversion functions",
+  "version": "0.1.0",
+  "homepage": "http://github.com/pgte/carrier",
+  "author": {
+    "name": "Alboaie Sinica",
+    "email": "salboaie@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Alboaie Sinica",
+      "email": "salboaie@gmail.com"
+    }
+    
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/salboaie/BlueUtils.git"
+  },
+  "bugs": {
+    "email": "salboaie@gmail.com",
+    "url": "https://github.com/salboaie/BlueUtils/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.3.0"
+  },
+  "devDependencies": {
+    "tap": "0.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "main": "./lib/BlueUtils.js",
+  "licenses": [
+    {
+      "type": "LGPL",
+      "url": "http://www.gnu.org/licenses/lgpl.html"
+    }
+  ],
+  "_id": "BlueUtils@0.1.0",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "_engineSupported": true,
+  "_npmVersion": "1.1.12",
+  "_nodeVersion": "v0.6.14",
+  "_defaultsLoaded": true,
+  "dist": {
+    "shasum": "051d902b916a58f398e6460637baf68080a79169"
+  },
+  "_from": "BlueUtils"
+}
