@@ -23,11 +23,11 @@ SwarmUtils include various utility functions for working with sockets,etc
    
 ## Usage writeObject,writeSizedString
    Example:
-   obj={id:"1"};
-   util.writeObject(sock,obj); ==> 0x00000008\n{id:"1"}\n
+   obj={"id":"1"};
+   util.writeObject(sock,obj); ==> 0x0000000A\n{\"id\":"1"}\n
          
    str="abc";
-   util.writeSizedString(str) ==> 0x00000003\nabc\n
+   util.writeSizedString(sock,str) ==> 0x00000003\nabc\n
 
    
    
