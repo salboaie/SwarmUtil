@@ -1,8 +1,8 @@
 {
-  "name": "BlueUtils",
-  "description": "Utils. Evented stream json reader for node.js,hexadecimal conversion functions",
-  "version": "0.1.0",
-  "homepage": "http://github.com/pgte/carrier",
+  "name": "swarmutil",
+  "description": "Utils. Evented stream json reader for node.js,hexadecimal conversion functions,more to come",
+  "version": "0.1.2",
+  "homepage": "http://github.com/salboaie/BlueUtils",
   "author": {
     "name": "Alboaie Sinica",
     "email": "salboaie@gmail.com"
@@ -26,7 +26,7 @@
     "lib": "./lib"
   },
   "engines": {
-    "node": ">=0.3.0"
+    "node": ">=0.6.0"
   },
   "devDependencies": {
     "tap": "0.2"
@@ -34,14 +34,14 @@
   "scripts": {
     "test": "tap test/*.js"
   },
-  "main": "./lib/BlueUtils.js",
+  "main": "./lib/SwarmUtils.js",
   "licenses": [
     {
       "type": "LGPL",
       "url": "http://www.gnu.org/licenses/lgpl.html"
     }
   ],
-  "_id": "BlueUtils@0.1.0",
+  "_id": "swarmutil@0.1.2",
   "dependencies": {},
   "optionalDependencies": {},
   "_engineSupported": true,
@@ -49,7 +49,7 @@
   "_nodeVersion": "v0.6.14",
   "_defaultsLoaded": true,
   "dist": {
-    "shasum": "051d902b916a58f398e6460637baf68080a79169"
+    
   },
-  "_from": "BlueUtils"
+  "_from": "swarmutil"
 }
