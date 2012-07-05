@@ -4,8 +4,11 @@ SwarmUtils include various utility functions for working with sockets,etc
 
     $ npm install swarmutil
 
-    
-## Usage for FastJsonParser 
+## Create a new Adaptor
+
+    thisAdaptor = require('swarmutil').createAdaptor("<<adaptorName>>",redisHost,redisPort);
+
+## Use FastJsonParser
 
    var parser = require("swarmutil").createFastParser(callBack);   
    var util = require("swarmutil");
