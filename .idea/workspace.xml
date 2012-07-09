@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504fef3d-9f2d-479b-8ff2-8df4dfa5d1ba" name="Default" comment="adding adaptor base implementation to swarmutil module">
+    <list default="true" id="504fef3d-9f2d-479b-8ff2-8df4dfa5d1ba" name="Default" comment="some debug functionality,refactoring to export less">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Outlet.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Adaptor.js" afterPath="$PROJECT_DIR$/lib/Adaptor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SwarmUtils.js" afterPath="$PROJECT_DIR$/lib/SwarmUtils.js" />
@@ -39,7 +40,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="0.6526674">
+            <state line="43" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8297389">
               <folding />
             </state>
           </provider>
@@ -48,17 +49,18 @@
       <file leaf-file-name="Adaptor.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Adaptor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="72" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
+            <state line="200" column="0" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Outlet.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Outlet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="50" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1341488955613" expanded="true" signature="312:1601" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="1473:1479" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="4720:5385" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="5510:5825" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="6101:10819" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="8413:8844" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="8922:10390" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="8982:9975" placeholder="{...}" />
-                <marker date="1341488955613" expanded="true" signature="11010:11071" placeholder="{...}" />
+                <element signature="e#0#157#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,7 +69,7 @@
       <file leaf-file-name="SwarmUtils.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/SwarmUtils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="13" column="44" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,6 +90,9 @@
       <list>
         <option value="$PROJECT_DIR$/test/test_FastJSONParsert.js" />
         <option value="$PROJECT_DIR$/README.markdown" />
+        <option value="$PROJECT_DIR$/lib/Adaptor.js" />
+        <option value="$PROJECT_DIR$/lib/Outlet.js" />
+        <option value="$PROJECT_DIR$/lib/SwarmUtils.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -139,6 +144,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SwarmUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BlueUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SwarmUtil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,13 +248,18 @@
       <created>1341477969598</created>
       <updated>1341477969598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some debug functionality,refactoring to export less">
+      <created>1341489459875</created>
+      <updated>1341489459875</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1622" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -250,7 +274,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -293,7 +316,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding adaptor base implementation to swarmutil module" />
+    <option name="LAST_COMMIT_MESSAGE" value="some debug functionality,refactoring to export less" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -309,6 +332,7 @@
     <MESSAGE value="first tested and wornking version" />
     <MESSAGE value="first tested and working version" />
     <MESSAGE value="adding adaptor base implementation to swarmutil module" />
+    <MESSAGE value="some debug functionality,refactoring to export less" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -326,31 +350,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/SwarmUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+        <state line="13" column="44" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Adaptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="72" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0">
+        <state line="200" column="0" selection-start="6045" selection-end="6045" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Outlet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="50" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1341488955613" expanded="true" signature="312:1601" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="1473:1479" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="4720:5385" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="5510:5825" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="6101:10819" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="8413:8844" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="8922:10390" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="8982:9975" placeholder="{...}" />
-            <marker date="1341488955613" expanded="true" signature="11010:11071" placeholder="{...}" />
+            <element signature="e#0#157#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="0.6526674">
+        <state line="43" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="0.8297389">
           <folding />
         </state>
       </provider>
