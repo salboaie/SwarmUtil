@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504fef3d-9f2d-479b-8ff2-8df4dfa5d1ba" name="Default" comment="some debug functionality,refactoring to export less">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/SwarmClient.js" />
+    <list default="true" id="504fef3d-9f2d-479b-8ff2-8df4dfa5d1ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Adaptor.js" afterPath="$PROJECT_DIR$/lib/Adaptor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SwarmUtils.js" afterPath="$PROJECT_DIR$/lib/SwarmUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Outlet.js" afterPath="$PROJECT_DIR$/lib/Outlet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/SwarmClient.js" afterPath="$PROJECT_DIR$/lib/SwarmClient.js" />
     </list>
     <ignored path="BlueUtils.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.05448354">
+            <state line="12" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adaptor.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Adaptor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="155" column="45" selection-start="4809" selection-end="4809" vertical-scroll-proportion="1.1175115">
               <folding />
             </state>
           </provider>
@@ -49,7 +57,7 @@
       <file leaf-file-name="Outlet.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Outlet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="39" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.0">
+            <state line="87" column="39" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +66,7 @@
       <file leaf-file-name="SwarmClient.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/SwarmClient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="30" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+            <state line="71" column="20" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,9 +98,9 @@
         <option value="$PROJECT_DIR$/README.markdown" />
         <option value="$PROJECT_DIR$/lib/Outlet.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/SwarmClient.js" />
         <option value="$PROJECT_DIR$/lib/SwarmUtils.js" />
         <option value="$PROJECT_DIR$/lib/Adaptor.js" />
+        <option value="$PROJECT_DIR$/lib/SwarmClient.js" />
       </list>
     </option>
   </component>
@@ -246,13 +254,18 @@
       <created>1341489459875</created>
       <updated>1341489459875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SwarmClient got tested">
+      <created>1341940409025</created>
+      <updated>1341940409025</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1622" height="1066" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -267,7 +280,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -310,7 +322,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="some debug functionality,refactoring to export less" />
+    <option name="LAST_COMMIT_MESSAGE" value="SwarmClient got tested" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -327,6 +339,7 @@
     <MESSAGE value="first tested and working version" />
     <MESSAGE value="adding adaptor base implementation to swarmutil module" />
     <MESSAGE value="some debug functionality,refactoring to export less" />
+    <MESSAGE value="SwarmClient got tested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -351,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Outlet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="39" selection-start="3205" selection-end="3205" vertical-scroll-proportion="0.0">
+        <state line="87" column="39" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -363,23 +376,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/SwarmClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="30" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
+        <state line="71" column="20" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Adaptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="50" selection-start="5137" selection-end="5137" vertical-scroll-proportion="0.13824885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.05448354">
+        <state line="155" column="45" selection-start="4809" selection-end="4809" vertical-scroll-proportion="1.1175115">
           <folding />
         </state>
       </provider>
