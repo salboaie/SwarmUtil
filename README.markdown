@@ -1,4 +1,5 @@
 SwarmUtils include various utility functions for working with sockets,etc
+Also, SwarmUtils includes core functionality for working with sworms.
 
 ## Install
 
