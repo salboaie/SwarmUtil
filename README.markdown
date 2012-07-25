@@ -7,7 +7,7 @@ Also, SwarmUtils includes core functionality for working with sworms.
 
 ## Create a new Adaptor
 
-    thisAdaptor = require('swarmutil').createAdaptor("<<adaptorName>>",redisHost,redisPort);
+    thisAdaptor = require('swarmutil').createAdaptor("<<adaptorName>>");
 
 ## Use FastJsonParser
 
