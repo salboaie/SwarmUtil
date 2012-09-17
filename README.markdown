@@ -1,14 +1,16 @@
-SwarmUtils include various utility functions for working with sockets,etc
-Also, SwarmUtils includes core functionality for working with sworms.
+Also, SwarmUtils includes core functionality for working with swarms.
+SwarmUtils include various utility functions for working with sockets in js,logging,etc
 
 ## Install
 
     $ npm install swarmutil
 
-## Create a new Adaptor
+## Create a new Swrm node (Adapter)
 
-    thisAdaptor = require('swarmutil').createAdaptor("<<adaptorName>>");
+    thisAdapter = require('swarmutil').createAdapter("<<adapterName>>",false,false,true);
 
+The "true" parameter enable verbose output and is usefull for debugging.
+ 
 ## Use FastJsonParser
 
    var parser = require("swarmutil").createFastParser(callBack);   
