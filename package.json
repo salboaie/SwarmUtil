@@ -1,7 +1,7 @@
 {
   "name": "swarmutil",
   "description": "Adaptor base implementation. Utils. Evented stream json reader for node.js,hexadecimal conversion functions,logging,etc",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "homepage": "https://github.com/salboaie/SwarmUtil",
   "author": {
     "name": "Alboaie Sinica",
@@ -12,7 +12,6 @@
       "name": "Alboaie Sinica",
       "email": "salboaie@gmail.com"
     }
-    
   ],
   "repository": {
     "type": "git",
@@ -41,94 +40,8 @@
       "url": "http://www.gnu.org/licenses/lgpl.html"
     }
   ],
-  "_id": "swarmutil@0.8.0",
+  "_id": "swarmutil@0.8.1",
   "dependencies": {},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   "optionalDependencies": {},
   "_engineSupported": true,
   "_npmVersion": "1.1.12",
