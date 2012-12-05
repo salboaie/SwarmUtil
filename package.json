@@ -1,7 +1,7 @@
 {
   "name": "swarmutil",
   "description": "Adapter's base implementation for swarms. Utilities for swarms.",
-  "version": "0.8.9",
+  "version": "0.9.0",
   "homepage": "https://github.com/salboaie/SwarmUtil",
   "author": {
     "name": "Alboaie Sinica",
@@ -41,7 +41,7 @@
       "url": "http://www.gnu.org/licenses/lgpl.html"
     }
   ],
-  "_id": "swarmutil@0.8.9",
+  "_id": "swarmutil@0.9.0",
   "dependencies": {},
   "optionalDependencies": {},
   "_engineSupported": true,
