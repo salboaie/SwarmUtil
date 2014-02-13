@@ -1,7 +1,7 @@
 {
   "name": "swarmutil",
   "description": "Bricks for swarm adapters and js clients.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://github.com/salboaie/SwarmUtil",
   "author": {
     "name": "Alboaie Sinica",
