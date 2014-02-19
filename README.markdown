@@ -5,7 +5,7 @@ SwarmUtils include various utility functions for working with sockets in js,logg
 
     $ npm install swarmutil
 
-## Create a new Swrm node (Adapter)
+## Create a new Swarm node (Adapter)
 
     thisAdapter = require('swarmutil').createAdapter("<<adapterName>>",false,false,true);
 
